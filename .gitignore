@@ -1,0 +1,22 @@
+# sequelize files
+db/postgres/config/config.json
+
+# node related
+node_modules
+npm_debug.log
+
+# local files
+dist/
+coverage/
+tmp/
+.data/
+
+# Env files
+.session.json
+env/*
+.gitsecret/keys/random_seed
+!*.secret
+.vscode
+.idea*
+*.iml
+.DS_Store

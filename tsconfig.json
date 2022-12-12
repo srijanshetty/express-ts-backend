@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es6",
+
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "removeComments": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+
+    "typeRoots": ["src/declaration.d.ts", "node_modules/@types"],
+    "paths": {},
+    "types": ["node", "jest"],
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/*"]
+}
